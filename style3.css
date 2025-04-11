@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Impact', sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    color: red;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: red;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  button.login,
+  button.signup {
+    background-color: rgb(255, 15, 15);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  /* Hero Section */
+  .banner-header {
+    background-image: url('image/pex4.jpg'); /* replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px; /* adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(165, 39, 39);
+    position: relative;
+  }
+  
+  .banner-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay for better readability */
+    z-index: 1;
+  }
+  
+  .banner-content {
+    position: relative;
+    z-index: 2; /* bring text above overlay */
+  }
+  
+  
+  .hero h1 {
+    font-size: 10rem;
+    color: red;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #dcd0d0;
+  }
+  
+  /* Schedule Table */
+  .schedule-table {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #111;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+  }
+  
+  th,
+  td {
+    border: 1px solid #444;
+    padding: 1rem;
+    text-align: center;
+    color: #a18b8b;
+  }
+  
+  th {
+    background-color: rgb(122, 49, 49);
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #222;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    color: #ef8c8c;
+    border-top: 1px solid #323131;
+  }
+  
+  footer .highlight {
+    color: rgb(217, 186, 186);
+  }
+  

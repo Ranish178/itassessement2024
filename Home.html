@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Box Champy - Fight Like A Champion</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      background: #1a1a1a;
+    }
+
+    .hero {
+      background: url('image/pex9.jpg') center/cover no-repeat;
+      height: 60vh;
+      position: relative;
+      padding: 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: white;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .hero-content {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+    }
+
+    .hero-content h2 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .hero-content span {
+      color: red;
+    }
+
+    .nav-buttons {
+      margin-top: 20px;
+    }
+
+    .nav-buttons .tab {
+      background: white;
+      color: black;
+      margin-right: 10px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .about-section {
+      background: #f0f0f0;
+      color: #111;
+      padding: 40px 20px;
+    }
+
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: flex-start;
+    }
+
+    .about-image {
+      flex: 1;
+      min-width: 300px;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    .about-text {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    .about-text h3 {
+      color: #000;
+      margin-bottom: 15px;
+    }
+
+    .about-text ol {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    .footer {
+      background: #000;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .footer h2 {
+      color: white;
+      font-size: 1.8em;
+    }
+
+    .footer span {
+      color: red;
+    }
+
+    .footer-links {
+      margin-top: 20px;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+
+    .footer-links a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    .social-icons a {
+      margin: 0 5px;
+      font-size: 1.2em;
+    }
+    /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #fff;
+}
+
+/* Header Styling */
+header {
+  background-color: #000; /* Strong black boxing vibe */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+header div {
+  font-size: 1.8rem;
+  color: #e60000; /* Red to pop the brand name */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #e60000;
+  color: #fff;
+}
+
+nav button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e60000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #ff1a1a;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>BOX CHAMPY</strong></div>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Class.html">Class</a>
+        <a href="Contact.html"><button>Sign Up</button></a>
+        
+        
+    </nav>
+</header>
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">BOX CHAMPY</h1>
+    </nav>
+    <div class="hero-content">
+      <h2>FIGHT LIKE<br><span>A CHAMPION</span></h2>
+      <div class="nav-buttons">
+        <button class="tab">🏋️‍♂️ CROSS-FIT</button>
+        <button class="tab">⚖️ WEIGHT</button>
+        <button class="tab">💪 EXERCISE</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="about-section">
+    <div class="about-container">
+      <img src="image/pex14.jpg" alt="Female Boxer" class="about-image">
+      <div class="about-text">
+        <h3>HOW TO JOIN BOX CHAMPY AND THINGS TO DO  </h3>
+        <ol>
+          <li><strong>How to join :</strong>Welcome to Box Champy — where passion meets power, and champions are built one punch at a time..</li>
+          <li><strong>Walk In and Visit Us:</strong> Drop by our gym anytime during open hours. No pressure — just come take a look around, meet our trainers, check out the equipmen.</li>
+          <li><strong>Sign Up Online:</strong> Short on time? You can easily register from the comfort of your home. Just head to our official website.</li>
+          <li><strong>Book a Free Trial Class:</strong>Still deciding? We offer one FREE trial session to new members. Experience a real class, meet our community.</li>
+          <li><strong>Use Your Surroundings:</strong> Use objects or escape routes for safety.</li>
+          <li><strong>Choose Your Program:</strong> We offer a range of classes and packages:
+
+            Beginner Boxing Basics
+            
+            Fitness & Conditioning
+            
+            Sparring & Fight Camp
+            
+            Personal Training
+            
+            Kids & Youth Programs You choose what fits your goals, lifestyle, and experience level.
+            
+            .</li>
+          <li><strong>Legal Consequences:</strong> Understand the laws regarding self-defense.</li>
+          <li><strong>Aftermath:</strong> Report the incident to law enforcement and seek medical attention if needed.</li>
+          <li><strong>Learn:</strong> Avoid future confrontations by improving conflict resolution skills.</li>
+          <li><strong>Remember:</strong> Violence is rarely the answer; it's better to walk away when possible.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <h2>READY FOR YOUR <span>NEXT</span> LESSON?</h2>
+    </div>
+    <div class="footer-links">
+      <p>📧 ranishkayas@gmail.com</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+      <div class="social-icons">
+        <a href="#">🔗</a>
+        <a href="#">📘</a>
+        <a href="#">📸</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

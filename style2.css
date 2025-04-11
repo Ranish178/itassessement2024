@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: black;
+    color: red;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    color: red;
+  }
+  
+  .nav button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav button:hover {
+    background-color: darkred;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 60px 20px 30px;
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+  }
+  .contact-section {
+    background-image: url('image/pe13.jpg'); /* replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:200px 60px;
+    position: relative;
+    color: white;
+  }
+  
+  .contact-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* dark overlay */
+    z-index: 1;
+  }
+  
+  .contact-section h2,
+  .contact-section .form-container {
+    position: relative;
+    z-index: 2; /* bring text and form above overlay */
+  }
+  
+ 
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-container input[type="text"]:hover,
+  .form-container input[type="email"]:hover {
+    border-color: red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+  }
+  
+  .form-container button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+  }
+  
